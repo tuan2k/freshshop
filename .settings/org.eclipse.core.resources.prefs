@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/view/public/cart.jsp=UTF-8
+encoding//WebContent/view/public/shop.jsp=UTF-8
+encoding//src/controller/admin/AdminAddProductController.java=UTF-8
+encoding//src/controller/admin/AdminEditProductController.java=UTF-8
+encoding//src/controller/auth/AuthLoginController.java=UTF-8
+encoding//src/controller/publics/PublicIndexController.java=UTF-8
+encoding//src/controller/publics/PublicIndexShopController.java=UTF-8

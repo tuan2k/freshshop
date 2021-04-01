@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>FreshShop</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet>
+    <servlet-name>AdminIndexUserController</servlet-name>
+    <servlet-class>controller.admin.AdminIndexUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminIndexUserController</servlet-name>
+    <url-pattern>/admin/user/index</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminAddUserController</servlet-name>
+    <servlet-class>controller.admin.AdminAddUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminAddUserController</servlet-name>
+    <url-pattern>/admin/user/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminDeleteUserController</servlet-name>
+    <servlet-class>controller.admin.AdminDeleteUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDeleteUserController</servlet-name>
+    <url-pattern>/admin/user/del</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminEditUserController</servlet-name>
+    <servlet-class>controller.admin.AdminEditUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminEditUserController</servlet-name>
+    <url-pattern>/admin/user/edit</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>AdminIndexCatController</servlet-name>
+    <servlet-class>controller.admin.AdminIndexCatController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminIndexCatController</servlet-name>
+    <url-pattern>/admin/cat/index</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminAddCatController</servlet-name>
+    <servlet-class>controller.admin.AdminAddCatController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminAddCatController</servlet-name>
+    <url-pattern>/admin/cat/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminDeleteCatController</servlet-name>
+    <servlet-class>controller.admin.AdminDeleteCatController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDeleteCatController</servlet-name>
+    <url-pattern>/admin/cat/del</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminEditCatController</servlet-name>
+    <servlet-class>controller.admin.AdminEditCatController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminEditCatController</servlet-name>
+    <url-pattern>/admin/cat/edit</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>AdminIndexProductController</servlet-name>
+    <servlet-class>controller.admin.AdminIndexProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminIndexProductController</servlet-name>
+    <url-pattern>/admin/product/index</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminAddProductController</servlet-name>
+    <servlet-class>controller.admin.AdminAddProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminAddProductController</servlet-name>
+    <url-pattern>/admin/product/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminDeleteProductController</servlet-name>
+    <servlet-class>controller.admin.AdminDeleteProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDeleteProductController</servlet-name>
+    <url-pattern>/admin/product/del</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminEditProductController</servlet-name>
+    <servlet-class>controller.admin.AdminEditProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminEditProductController</servlet-name>
+    <url-pattern>/admin/product/edit</url-pattern>
+  </servlet-mapping>
+  
+
+  <servlet>
+    <servlet-name>AdminIndexOrderController</servlet-name>
+    <servlet-class>controller.admin.AdminIndexOrderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminIndexOrderController</servlet-name>
+    <url-pattern>/admin/order/index</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminViewOrderController</servlet-name>
+    <servlet-class>controller.admin.AdminViewOrderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminViewOrderController</servlet-name>
+    <url-pattern>/admin/order/view</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminAddOrderController</servlet-name>
+    <servlet-class>controller.admin.AdminAddOrderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminAddOrderController</servlet-name>
+    <url-pattern>/admin/order/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AdminDeleteOrderController</servlet-name>
+    <servlet-class>controller.admin.AdminDeleteOrderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDeleteOrderController</servlet-name>
+    <url-pattern>/admin/order/del</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>AdminDeleteCartController</servlet-name>
+    <servlet-class>controller.admin.AdminDeleteCartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDeleteCartController</servlet-name>
+    <url-pattern>/admin/cart/del</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>AdminEditOrderController</servlet-name>
+    <servlet-class>controller.admin.AdminEditOrderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminEditOrderController</servlet-name>
+    <url-pattern>/admin/order/edit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PublicIndexShopController</servlet-name>
+    <servlet-class>controller.publics.PublicIndexShopController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicIndexShopController</servlet-name>
+    <url-pattern>/shop</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PublicCartController</servlet-name>
+    <servlet-class>controller.publics.PublicCartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicCartController</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PublicIndexController</servlet-name>
+    <servlet-class>controller.publics.PublicIndexController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicIndexController</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>PublicDetailController</servlet-name>
+    <servlet-class>controller.publics.PublicDetailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicDetailController</servlet-name>
+    <url-pattern>/detail</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>PulicOrderController</servlet-name>
+    <servlet-class>controller.publics.PulicOrderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PulicOrderController</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AuthLoginController</servlet-name>
+    <servlet-class>controller.auth.AuthLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthLoginController</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AuthenRegisterController</servlet-name>
+    <servlet-class>controller.auth.AuthenRegisterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthenRegisterController</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AuthenLogoutController</servlet-name>
+    <servlet-class>controller.auth.AuthenLogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthenLogoutController</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>AdminLoginController</servlet-name>
+    <servlet-class>controller.admin.AdminLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginController</servlet-name>
+    <url-pattern>/admin/login</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>AdminLogoutController</servlet-name>
+    <servlet-class>controller.admin.AdminLogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogoutController</servlet-name>
+    <url-pattern>/admin/logout</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>AdminChartController</servlet-name>
+    <servlet-class>controller.admin.AdminChartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminChartController</servlet-name>
+    <url-pattern>/admin/chart/total</url-pattern>
+  </servlet-mapping>
+  
+  <error-page>
+  <error-code>404</error-code>
+  <location>/view/error_page.jsp</location>
+  </error-page>
+  
+  
+</web-app>
